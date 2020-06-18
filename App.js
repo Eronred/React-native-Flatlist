@@ -1,7 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 import FlatlistView from './FlatlistView';
-
 export default class App extends React.Component {
   render() {
     return (
@@ -11,6 +10,7 @@ export default class App extends React.Component {
     );
   }
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
