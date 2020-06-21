@@ -16,6 +16,7 @@ export default class FlatlistView extends React.Component {
     text: '',
     contacts: data,
   };
+  
   renderItemgetAll = ({item, index}) => {
     return (
       <TouchableOpacity style={styles.layoutShape}>
